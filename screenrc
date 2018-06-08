@@ -1,3 +1,10 @@
-# visual bell off
+# visual bell off.
 vbell off
 
+startup_message off
+
+# status line.
+hardstatus alwayslastline "%{= cd} %-w%{= dd} %n %t* %{-}%+w %= LoadAVG [%l] "
+
+# buffer clean.
+altscreen on
