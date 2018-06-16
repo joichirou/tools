@@ -7,6 +7,11 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 
+" key binding.
+nnoremap <C-n> :tabnew<CR>
+nnoremap <C-tab> gt
+nnoremap <C-S-tab> gT
+
 " TAB, spaceを可視化する
 set list
 set listchars=tab:>-,trail:-,extends:>,precedes:<,nbsp:%
