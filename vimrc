@@ -1,6 +1,4 @@
 set number
-".vim/colors/*.vimにあるファイルの設定
-"colorscheme blues
 
 " TABキーを押した際にタブ文字の代わりにスペース(4文字)を入れる
 set expandtab
@@ -33,15 +31,3 @@ filetype plugin indent on
 syntax enable
 colorscheme industry
 syntax on
-
-"----------------------
-"拡張子別に定義する
-"----------------------
-autocmd BufRead,BufNewFile *.py setfiletype hello_python
-autocmd BufRead,BufNewFile *.psp setfiletype psp
-
-"----------------------
-" key mapping
-"----------------------
-noremap <silent><C-n> :NERDTreeToggle<CR>
-
