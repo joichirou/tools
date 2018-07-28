@@ -1,5 +1,8 @@
 set number
 
+" for mac
+set backspace=indent,eol,start
+
 " TABキーを押した際にタブ文字の代わりにスペース(4文字)を入れる
 set expandtab
 set tabstop=4
