@@ -1,0 +1,2 @@
+source ~/.vim/vimrcLocal/vimrc_common
+source ~/.vim/vimrcLocal/vimrc_plugin_manager_dein

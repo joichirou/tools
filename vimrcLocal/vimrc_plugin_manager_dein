@@ -1,0 +1,14 @@
+" installer.shの宛先ディレクトリに依存します。
+" sh ./installer.sh ~/.cache/dein
+let s:dein_dir = expand('~/.cache/dein')
+let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
+
+execute 'set runtimepath^=' . s:dein_repo_dir
+
+call dein#begin(s:dein_dir)
+call dein#add('Shougo/Unite.vim')
+call dein#add('scrooloose/nerdtree')
+call dein#end()
+
+filetype plugin indent on
+syntax enable
