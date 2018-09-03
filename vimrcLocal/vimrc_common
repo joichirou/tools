@@ -1,4 +1,5 @@
 set number
+colorscheme industry
 
 " for mac
 set backspace=indent,eol,start
