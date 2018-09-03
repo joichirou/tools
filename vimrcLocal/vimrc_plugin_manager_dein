@@ -12,3 +12,6 @@ call dein#end()
 
 filetype plugin indent on
 syntax enable
+
+" key binding.
+nnoremap <C-i> :NERDTreeToggle<CR>
