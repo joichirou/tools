@@ -3,5 +3,5 @@
 
 # Usage
 * Vim(text editor)
-* screen(muti terminal)
+* screen(multi terminal)
 * bash(terminal)
